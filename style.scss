@@ -1,6 +1,7 @@
 ---
 ---
 .Navbar {
+    z-index: 1;
     background-color: black;
     display: flex;
     padding: 16px;
@@ -17,6 +18,7 @@
 .Navbar__Link a {
     color: white;
     text-decoration: none !important;
+    padding-bottom: 5px;
 }
 
 .Navbar__Link a:hover {
@@ -24,7 +26,6 @@
     text-decoration: none !important;
     border-bottom: 3px solid;
 }
-
 .Navbar__Items {
   display: flex;
 }
@@ -39,29 +40,28 @@
 
 
 @media only screen and (max-width: 768px) {
-  .Navbar__Items,
-  .Navbar {
-    flex-direction: column;
-  }
-    
-.Navbar__Items {
-    display:none;
-  }
-    
-.Navbar__Items--right {
-    margin-left:0;
-  }
-    
-.Navbar__ToggleShow {
-    display: flex;
-  }
-    
-.Navbar__Link-toggle {
-    align-self: flex-end;
-    display: initial;
-    position: absolute;
-    cursor: pointer;
-   } 
+    .Navbar__Items,
+    .Navbar {
+        flex-direction: column;
+    }
+    .Navbar__Items {
+        display:none;
+    }
+    .Navbar__Items--right {
+        margin-left:0;
+    }
+    .Navbar__Link a {
+        padding-bottom: 0px;
+    } 
+    .Navbar__ToggleShow {
+        display: flex;
+    }
+    .Navbar__Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    } 
 }
 
 HTML, BODY {
