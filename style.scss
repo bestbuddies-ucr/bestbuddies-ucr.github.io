@@ -1,7 +1,6 @@
 ---
 ---
 .Navbar {
-    z-index: 1;
     background-color: black;
     display: flex;
     padding: 16px;
@@ -25,6 +24,7 @@
     text-decoration: none !important;
     border-bottom: 3px solid;
 }
+
 .Navbar__Items {
   display: flex;
 }
