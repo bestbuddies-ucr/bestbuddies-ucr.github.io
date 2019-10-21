@@ -40,6 +40,23 @@
 
 
 @media only screen and (max-width: 768px) {
+        .Navbar__Items,
+    .Navbar {
+        flex-direction: column;
+    }
+    .Navbar__Items {
+        display:none;
+    }
+    .Navbar__Items--right {
+        margin-left:0;
+    }
+    .Navbar__Link a {
+        padding-bottom: 5px;
+    } 
+    .Navbar__ToggleShow {
+        display: flex;
+        position: absolute;
+    }
     .Navbar__Link-toggle {
         align-self: flex-end;
         display: flex;
