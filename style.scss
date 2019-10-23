@@ -173,22 +173,22 @@ button:hover, a:hover {
 .about-text {
     float: left;
     width: 50%;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     position: absolute;
     top: 50%;
     left: 22%;
     transform: translate(-25%,-50%);
-    color: black;
+    color: white;
 }
 
-.contact-us{
+.join-us{
     margin-left: 50%;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     position: absolute;
     top: 50%;
     left: 22%;
     transform: translate(-25%,-50%);
-    
+    color: white;
 }
 
 .row:after {
@@ -212,7 +212,10 @@ button:hover, a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .column-homepics {
-    width: 100%;
-  }
+    .column-homepics {
+        width: 100%;
+    }
+    .about-text, .join-us {
+        font-size: 1em;
+    }
 }
