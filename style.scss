@@ -127,12 +127,6 @@ footer {
     
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     min-width: 300px;
@@ -174,21 +168,11 @@ button:hover, a:hover {
     float: left;
     width: 50%;
     font-size: 1.5vw;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-25%,-50%);
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10%;
     color: white;
-}
-
-.join-us{
-    margin-left: 50%;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 60%;
-    left: 22%;
-    transform: translate(-25%,-50%);
-    color: white;
+    text-align: justify;
 }
 
 .row:after {
