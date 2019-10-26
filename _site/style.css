@@ -136,8 +136,7 @@ button:hover, a:hover {
   padding-left: 10%;
   padding-top: 5%;
   padding-right: 10%;
-  color: white;
-  text-align: justify; }
+  color: white; }
 
 .row:after {
   content: "";
@@ -161,4 +160,5 @@ button:hover, a:hover {
     width: 100%; }
 
   .about-text, .join-us {
+    width: 100%;
     font-size: 1em; } }
