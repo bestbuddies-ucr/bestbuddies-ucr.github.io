@@ -4,8 +4,8 @@ name: Becca Lettes
 position: Vice President 
 about: Junior  
 picture: /pictures/members/becca-lettes.jpg
-email: 
+email: rlett001@ucr.edu
 instagram:
 facebook:
-categories: members
+categories: officers
 ---

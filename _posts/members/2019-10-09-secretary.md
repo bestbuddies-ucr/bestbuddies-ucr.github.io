@@ -4,8 +4,8 @@ name: Brittenny De La Cruz
 position: Secretary 
 about: Senior  
 picture: /pictures/members/brittenny-de-la-cruz.jpg
-email: 
+email: bdela009@ucr.edu
 instagram:
 facebook:
-categories: members
+categories: officers
 ---

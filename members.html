@@ -4,14 +4,73 @@ title: BestBuddies - UCR
 active: Members
 ---
 
-<section>
-{% for post in site.categories.members %}
-    <div class="card">
-        <img src=" {{ post.picture }} " style="width:100%">
-        <h1> {{ post.name }} </h1>
-        <p class="title"> {{ post.position }} </p>
-        <p><button>Contact</button></p>
+<section class="section-members">
+    <div style="margin-left: 5%; margin-right: 5%">
+        <h1 style="text-align: center; color: white;"> Officers </h1>
+        {% for post in site.categories.officers %}
+        <div class="card">
+            <img src=" {{ post.picture }} " style="width:100%">
+            <h3> {{ post.name }} </h3>
+            <p class="title"> {{ post.position }} </p>
+            <p><a href="mailto: {{ post.email }}" style="color: white; text-decoration: none"><button>Contact</button></a></p>
+        </div>
+        {% endfor %}
     </div>
-{% endfor %}
+</section><br><br>
 
-</section>
+<section class="section-members">
+    <div style="margin-left: 5%; margin-right: 5%">
+        <h1 style="text-align: center; color: white;"> Committee Groups </h1>
+        <div class="groups">
+            <h2 style="color: white;"> Newsletter </h2>
+            <p style="text-align: center; color: white"> 
+
+            </p>
+        </div>
+        <div class="groups">
+            <h2 style="color: white;"> Public Relations </h2>
+            <p style="text-align: center; color: white"> 
+
+            </p>
+        </div>
+        <div class="groups">
+            <h2 style="color: white;"> Fundraiser </h2>
+            <p style="align-content: center; text-align: center; color: white"> 
+
+            </p>
+        </div>
+    </div>
+</section><br><br>
+
+<section class="section-members">
+    <div style="margin-left: 5%; margin-right: 5%">
+        <h1 style="text-align: center; color: white;"> Buddy Pairs </h1>
+        <p style="text-align: center; color: white"> 
+            Victor & Nayeli <br>
+            Xitalia & Julian <br>
+            Adrian & Ran <br>
+            Angel & Jazmin <br>
+            Anjeanette & Angel <br>
+            Anthony & Purnima <br> 
+            Arthur & Giselle <br> 
+            Ayana & Brittenny <br>
+            Bobby & Fatima <br>
+            Brandon, Aaron & Sarah <br>
+            David C & Ariana <br>
+            David F & Sydney <br>
+            Helen & Tania <br>
+            Issac & Connor <br>
+            Ismael & Ashley <br> 
+            Ivan & Diana <br> 
+            Jazmin & Elizabeth <br>
+            Justin & Julia <br>
+            Kyle & Sarah R <br>
+            Sabrina & Christine <br>
+            Savannah & Jamie <br>
+            Sean & Becca <br>
+            Steven & Salil <br>
+            Tiffine & Elisa <br>
+            Yesenia & Kylee <br>
+        </p>
+    </div>
+</section><br><br>

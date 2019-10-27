@@ -4,8 +4,8 @@ name: Sarah Evleth
 position: President
 about: Junior 
 picture: /pictures/members/sarah-evleth.jpg
-email: 
+email: sevle001@ucr.edu
 instagram:
 facebook:
-categories: members
+categories: officers
 ---
