@@ -140,12 +140,12 @@ footer {
 .groups {
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 250px;
+    max-width: 250px;
     display: inline-block;
     margin: 10px;
-    margin-left: 5.5%;
-    margin-right: 3.5%; 
+    margin-left: 4%;
+    margin-right: 0%; 
     margin-top: 50px;
     text-align: center;
 }
@@ -216,11 +216,17 @@ button:hover, a:hover {
         width: 100%;
         font-size: 1em;
     }
+    .card {
+        align-content: center;
+        margin-left: 17%;
+    }
 
 }
 
-@media screen and (max-width: 768px) {
-    .card {
+@media screen and (max-width: 968px) {
+    .groups {
+        display: contents;
+        width: 100%;
     }
 }
 
