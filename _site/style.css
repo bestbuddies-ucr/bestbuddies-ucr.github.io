@@ -177,7 +177,7 @@ button:hover, a:hover {
 
   .card {
     align-content: center;
-    margin-left: 20%; } }
+    margin-left: 10%; } }
 @media screen and (max-width: 968px) {
   .groups {
     display: contents;
